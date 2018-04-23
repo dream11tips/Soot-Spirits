@@ -8,14 +8,14 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Abhishek Nagekar's Blog
-tagline: Code, Science, Philosophy, Humor
+title : babatricks  
+tagline: dream11, fantasy team, nba dream11, dream11 cricket, dream11 prediction team, dream11 team.
 author :
-  name : Abhishek Nagekar
+  name : baba 
   email : abhishek@nagekar.com
-  github : abhn
-  twitter : abhisheknagekar
-  feedburner : AbhishekN
+  github : 
+  twitter : 
+  feedburner :  
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://www.nagekar.com
+production_url : https://www.babatricks.in
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -54,7 +54,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
+  BASE_PATH : true
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : nagekar
+      short_name : babatricks
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -95,7 +95,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : google analytics
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
@@ -108,3 +108,14 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+collections:
+  category:
+    output: true
+    
+ defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"   
