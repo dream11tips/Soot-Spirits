@@ -1,0 +1,11 @@
+---
+default: cricket
+---
+<ul>
+    {% for cricket in site.categories.cricket %}
+    <li>
+    <a href="">{{cricket.title}}</a>
+    <p>{{cricket.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>
